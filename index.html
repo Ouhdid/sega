@@ -4,13 +4,15 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Ana</title>
+        <title>SEGA Rent Car</title>
         <meta content="" name="description" />
         <meta content="" name="keywords" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta content="telephone=no" name="format-detection" />
         <meta name="HandheldFriendly" content="true" />
         <link rel="stylesheet" href="assets/css/master.css" />
+        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
         <!-- SWITCHER-->
         <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
         <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -32,17 +34,24 @@
 
 
         
-        <!-- MOBILE MENU-->
         <!-- ==========================-->
         <div data-off-canvas="mobile-slidebar left overlay">
             <a class="navbar-brand scroll" href="home.html">
-                <img class="normal-logo img-resonsive visible-xs visible-sm" src="assets/media/general/logo.png" alt="logo" />
-                <img class="scroll-logo img-resonsive hidden-xs hidden-sm" src="assets/media/general/logo-dark.png" alt="logo" />
+                <img style=" width: 80%; " class="normal-logo img-resonsive visible-xs visible-sm" src="assets/media/general/logo.png" alt="logo" />
+                <img style=" width: 80%; margin-top: 5px; " class="scroll-logo img-resonsive hidden-xs hidden-sm" src="assets/media/general/logo-dark.png" alt="logo" />
             </a>
-            
+            <ul class="nav navbar-nav">
+                <li>
+                    <h4><a href="">Mobile sidebar</a></h4>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a></li>
+                <li><a href="">Car Listing</a></li>
+                <li><a href="">Car Rental</a></li>
+               
+              
+            </ul>
         </div>
         <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
-    
             <!-- ==========================-->
             <!-- SEARCH MODAL-->
             <!-- ==========================-->
@@ -66,44 +75,30 @@
             </div>
             <div data-off-canvas="slidebar-1 left overlay">
                 <ul class="nav navbar-nav">
-                    <li><a class="scrollTo" href="">features</a>
+                    <li><a class="scrollTo" href="#features-section">features</a>
                     </li>
-                    <li><a class="scrollTo" href="">Services</a>
+                    <li><a class="scrollTo" href="#services-section">Services</a>
                     </li>
-                    <li><a class="scrollTo" href="">Works</a>
+                    <li><a class="scrollTo" href="#works-section">Works</a>
                     </li>
-                    <li><a class="scrollTo" href="">About</a>
+                    <li><a class="scrollTo" href="#about-section">About</a>
                     </li>
-                    <li><a class="scrollTo" href="">Team</a>
+                    <li><a class="scrollTo" href="#team-section">Team</a>
                     </li>
+                    
                 
-                   
                 </ul>
             </div>
-            <header class="header header-boxed-width navbar-fixed-top header-background-white header-color-black header-topbar-dark header-logo-black header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
+            <header class="header header-3 header-boxed-width navbar-fixed-top header-color-white header-topbar-dark header-logo-white header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
                 <div class="container container-boxed-width">
-                    <div class="top-bar">
+                    <div class="top-bar text-center">
                         <div class="container">
                             <div class="header-topbarbox-1">
                                 <ul>
                                     <li><i class="icon fa fa-clock-o"></i> Mon - Fri : 0900am to 0600pm</li>
-                                    <li><i class="icon fa fa-phone"></i><a href="tel:+0427983549">+ 042 798 3549</a>
+                                    <li><i class="icon fa fa-phone"></i><a href="tel:+0427983549">+ 00 798 3549 00</a>
                                     </li>
                                     <li><i class="icon fa fa-envelope-o"></i><a href="mailto:support@carsrentalantalya.com">support@carsrentalantalya.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="header-topbarbox-2">
-                                <ul class="social-links">
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-facebook"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-linkedin"></i></a>
-                                    </li>
-                                    <li class="li-last"><a href="/" target="_blank"><i class="social_icons fa fa-instagram"></i></a>
-                                    </li>
-                                    <li><a href="/" target="_blank"><i class="social_icons fa fa-youtube-play"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -116,27 +111,26 @@
                                 <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
                                 </button>
                                 <!-- Mobile Trigger End-->
-                                <a class="navbar-brand scroll" href="">
+                                <a class="navbar-brand scroll" href="home.html">
                                     <img class="normal-logo img-responsive" src="assets/media/general/logo.png" alt="logo" />
                                     <img class="scroll-logo hidden-xs img-responsive" src="assets/media/general/logo-dark.png" alt="logo" />
                                 </a>
                             </div>
                             <div class="header-navibox-3">
                                 <ul class="nav navbar-nav hidden-xs clearfix vcenter">
-                                   
-                                  
+                                    <li><a class="btn_header_search bg-primary" href="#"><i class="icon fa fa-search"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="header-navibox-2">
                                 <ul class="yamm main-menu nav navbar-nav">
-                                    <li><a  href="index.html">Home</a></li>
-                                    <li><a  href="listings.html">Car Listing</a></li>
-                                    <li><a  href="#">About</a></li>
-                                    <li><a  href="blog-main.html">News</a></li>
-                                    <li><a  href="#">Contact</a></li>
-                                    <li><a  href="#">FAQ</a></li>
-                                    <li><a  href="#">HOW IT WORKS</a></li>
-                                 
-                                    
+                                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a></li>
+                                    <li><a href="listings.html">Car Listing</a></li>
+                                    <li><a href="blog-main.html">News</a></li>
+                                    <li><a href="">CONTACT US</a></li>
+                                    <li><a href="">HOW IT WORK</a></li>
+
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -144,51 +138,27 @@
                 </div>
             </header>
             <!-- end .header-->
-          
-
-
-
-
-
-
-            <!-- end .main-slider-->
-            <!-- end .header-->
-            <div class="main-slider main-slider-4">
-                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="650px" data-slider-arrows="false" data-slider-buttons="false">
+            <div class="main-slider main-slider-3">
+                <div class="slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="750px" data-slider-arrows="true" data-slider-buttons="false">
                     <div class="sp-slides">
                         <!-- Slide 1-->
                         <div class="sp-slide">
-                            <img class="sp-image" src="assets/media/components/b-main-slider/6.jpg" alt="slider" />
+                            <img class="sp-image" src="assets/media/components/b-main-slider/3.jpg" alt="slider" />
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <div class="sp-layer" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                                            <div class="main-slider__label">Do you need a ride?</div>
-                                            <div class="main-slider__title">We offer Faster & Reliable
-                                                <br>Car Rental Service</div><a class="main-slider__btn btn btn-lg btn-white" href="services.html">book now</a>
+                                            <div class="main-slider__title"><strong>we service all your<br></strong>automotive needs</div><a class="main-slider__btn btn btn-lg btn-white" href="">HOW IT WORKS</a><a class="main-slider__btn btn btn-lg btn-primary" href="listings.html">RENT CAR</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Slide 2-->
-                        <div class="sp-slide">
-                            <img class="sp-image" src="assets/media/components/b-main-slider/7.jpg" alt="slider" />
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="sp-layer" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">
-                                            <div class="main-slider__label">Do you need a ride?</div>
-                                            <div class="main-slider__title">We offer Faster & Reliable
-                                                <br>Car Rental Service</div><a class="main-slider__btn btn btn-lg btn-white" href="services.html">book now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
+            <!-- end .main-slider-->
             <!-- end .main-slider-->
             <section class="section-filter">
                 <div class="container">
@@ -455,6 +425,55 @@
                 <!-- end .featured-carousel-->
             </section>
 
+            <section class="b-about section-default">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="b-about__inner">
+                                <h2 class="ui-title-block">Cars Rent Alantalya</h2>
+                                <div class="ui-subtitle-block">Tempor incididunt duis labore dolore magna aliqua sed ipsum</div>
+                                <div class="ui-decor"></div>
+                                <div class="b-about-main">
+                                    <div class="b-about-main__title">We are a Trusted Name in Auto Industry</div>
+                                    <div class="b-about-main__subtitle">Visited by Million of Car Buyers Every Month!</div>
+                                    <p>Cars Rent Alantalya is aliquip exd ea consequat duis lorem ipsum dolor sit amet consectetur dipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                                    <p>Slamco laboris nisi ut aliquip ex ea comdo consequat uis aute irure dolor raeprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <div class="b-about-main__btns"><a class="btn btn-dark" href="home.html">Our partners</a><a class="btn btn-primary" href="home.html">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <ul class="b-about-list list-unstyled">
+                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-travel"></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">10 Years in Business</div>
+                                        <div class="b-about-list__info">Cars Rent Alantalya is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-handshake"></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">Trusted by Auto Buyers</div>
+                                        <div class="b-about-list__info">Cars Rent Alantalya is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                                <li class="b-about-list__item"><i class="b-about-list__icon flaticon-transport"></i>
+                                    <div class="b-about-list__inner">
+                                        <div class="b-about-list__title">Affordable Auto Prices</div>
+                                        <div class="b-about-list__info">Cars Rent Alantalya is nisi aliquip ea consequat duis velit esse cillum dolore fugiat nulla pariatur excepteur sint occaecat.</div>
+                                        <div class="ui-decor-2"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end .b-about-->
+            </section>
+
+
             <!-- end .section-reviews-->
             <section class="section-news section-news_mod-a" style="margin-bottom: 2em;">
                 <div class="container">
@@ -475,9 +494,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Ford News</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>Ford News</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Ford Motors overhauled its design team </a></h2>
+                                            <h2 class="entry-title"><a href="#">Ford Motors overhauled its design team </a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -512,9 +531,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_2.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Driving</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>Driving</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Self-driving legislation sets in the motion</a></h2>
+                                            <h2 class="entry-title"><a href="#">Self-driving legislation sets in the motion</a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -549,9 +568,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_3.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>What’s New</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>What’s New</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">What's new coming from the automakers in future</a></h2>
+                                            <h2 class="entry-title"><a href="#">What's new coming from the automakers in future</a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -586,9 +605,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_1.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Ford News</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>Ford News</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Ford Motors overhauled its design team </a></h2>
+                                            <h2 class="entry-title"><a href="#">Ford Motors overhauled its design team </a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -623,9 +642,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_2.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>Driving</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>Driving</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">Self-driving legislation sets in the motion</a></h2>
+                                            <h2 class="entry-title"><a href="#">Self-driving legislation sets in the motion</a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -660,9 +679,9 @@
                                             <div class="entry-meta">
                                                 <div class="entry-meta__face">
                                                     <img class="img-responsive" src="assets/media/content/posts/face/76x76_3.jpg" alt="face" />
-                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="blog-main.html"> Thomas Neil</a></span><a class="entry-meta__categorie" href="blog-main.html"><strong>What’s New</strong></a>
+                                                </div><span class="entry-meta__item">Post by<a class="entry-meta__link" href="#"> Thomas Neil</a></span><a class="entry-meta__categorie" href="#"><strong>What’s New</strong></a>
                                             </div>
-                                            <h2 class="entry-title"><a href="blog-post.html">What's new coming from the automakers in future</a></h2>
+                                            <h2 class="entry-title"><a href="#">What's new coming from the automakers in future</a></h2>
                                         </div>
                                         <div class="entry-content">
                                             <p>Duis aute irure reprehender voluptate velits fugiat nulla pariatur excepteur ipsum doloe amet consecteur adipisicing elit.</p>
@@ -695,6 +714,7 @@
                 </div>
             </section>
             <!-- end .section-news-->
+
                         <!-- end .section-isotope-->
             <div class="b-info-2 bg-primary">
                 <div class="container">
@@ -721,7 +741,7 @@
                                         <a class="footer__logo" href="home.html">
                                             <img class="img-responsive" src="assets/media/general/logo.png" alt="Logo" />
                                         </a>
-                                        <div class="footer__info">Duis aute irure reprehend voluptate velit ese acium fugiat nula pariatur exceptus ipsum dolor sit amet consectetur adipisic elita sed eiusmod tempor.</div>
+                                        <div class="footer__info">Duis aute irure reprehend voluptate velit ese acium amet consectetur adipisic elita sed eiusmod tempor.</div>
                                         <ul class="social-net list-inline">
                                             <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
                                             </li>
@@ -749,19 +769,10 @@
                                             </li>
                                             <li class="footer-list__item"><a class="footer-list__link" href="about.html">Mercedes</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Aston Martin</a>
+                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Aston M</a>
                                             </li>
                                             <li class="footer-list__item"><a class="footer-list__link" href="about.html">Toyota</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Opel</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Land Rover</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Mclaren</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Peogeot</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Renault</a>
                                             </li>
                                         </ul>
                                     </section>
@@ -776,11 +787,7 @@
                                             </li>
                                             <li class="footer-list__item"><a class="footer-list__link" href="about.html">Crossovers</a>
                                             </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Hybrid Cars</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Hybrid SUVs</a>
-                                            </li>
-                                            <li class="footer-list__item"><a class="footer-list__link" href="about.html">Future Cars</a>
+                                         
                                             </li>
                                         </ul>
                                     </section>
@@ -788,7 +795,7 @@
                                 <div class="col-md-3">
                                     <section class="footer-section">
                                         <h3 class="footer-section__title ui-title-inner">Address Information</h3>
-                                        <div class="footer-contact footer-contact_lg">Call us<span class="text-primary"> (042) 789 35490</span>
+                                        <div class="footer-contact footer-contact_lg"><span class="text-primary"> </span>
                                         </div>
                                         <div class="footer-contact"><i class="icon icon-xs fa fa-envelope-o"></i>support@carsrentalantalya.com</div>
                                         <div class="footer-contact"><i class="icon icon-lg fa fa-map-marker"></i>Fairview Ave, El Monte, CA, 91732</div>
@@ -800,8 +807,8 @@
                     </div>
                     <div class="copyright">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">Copyrights 2019<a class="copyright__brand" href=""> Richippie</a> All Rights Reserved<a class="copyright__link" href="privacy-policy.html">Privacy Policy</a><a class="copyright__link" href="terms-of-use.html">Terms & Conditions 00</a>
+                            <div class="row" style="font-family: 'Rubik', sans-serif;">
+                                <div class="col-xs-12">Copyrights 2019<a class="copyright__brand" href=""> Richippie</a> All Rights Reserved<a class="copyright__link" href="">Privacy Policy</a><a class="copyright__link" href="">Terms & Conditions</a>
                                 </div>
                             </div>
                         </div>

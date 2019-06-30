@@ -1459,7 +1459,7 @@ html [data-off-canvas*=open] {
 
 .navbar-brand {
     height: auto;
-    padding: 5px 0 0 44px;
+    padding: 0px 0 0 44px;
 }
 
 .header-2 .top-bar .social-links li > a {

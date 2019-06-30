@@ -53,6 +53,7 @@ body {
 .l-sidebar-2 {
   margin-bottom: 70px;
   padding-left: 30px;
+
 }
 
 .l-sidebar-3 {
@@ -3675,9 +3676,7 @@ blockquote cite {
   margin-left: 3px;
 }
 
-.main-slider-3 .sp-image-container:after {
-  background-color: rgba(0, 0, 0, 0.7);
-}
+
 
 .main-slider-4 {
   margin-top: 161px;
@@ -5240,6 +5239,7 @@ blockquote cite {
 .footer__info {
   margin-bottom: 30px;
   line-height: 1.86;
+  font-family: 'Rubik', sans-serif;
 }
 
 .footer .copyright {
@@ -5394,6 +5394,8 @@ blockquote cite {
   display: inline-block;
   padding-right: 30px;
   vertical-align: top;
+    text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
 }
 
 .footer-list__link {
@@ -5430,6 +5432,7 @@ blockquote cite {
   padding-left: 38px;
   letter-spacing: .02em;
   color: #fff;
+      font-family: 'Rubik', sans-serif;
 }
 
 .footer-contact .icon {
